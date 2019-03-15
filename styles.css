@@ -136,7 +136,14 @@ section#connect {
 
 /* Media Queries */
 @media screen and (max-width: 860px) {
+  #about h1 {
+    font-size: 3rem;
+  }
+
+  .lead {
+    width: 80%;
+  }
   #my-pic {
-    width: 30vw;
+    width: 40vw;
   }
 }
