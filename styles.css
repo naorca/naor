@@ -146,4 +146,8 @@ section#connect {
   #my-pic {
     width: 40vw;
   }
+
+  .projects-container a {
+    width: 30%;
+  }
 }
