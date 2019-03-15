@@ -81,7 +81,7 @@ section h1 {
 }
 
 .projects-container {
-  width: 80%;
+  width: 90%;
   height: 80%;
   display: flex;
   align-items: center;
@@ -89,8 +89,8 @@ section h1 {
 }
 
 .projects-container a {
-  width: 30%;
-  height: 50%;
+  width: 40vh;
+  height: 40vh;
   border: 3px solid white;
   overflow: hidden;
 }
@@ -101,49 +101,8 @@ section h1 {
   transition: all 500ms;
 }
 
-.projects-container a:hover .project:before,
-.projects-container a:focus .project:before {
-  display: block;
-}
-
-.projects-container a:hover a,
-.projects-container a:focus a {
-  display: block;
-}
-
-.project:before {
-  content: "";
-  display: none;
-  height: 100%;
-  width: 100%;
-  position: absolute;
-  top: 0;
-  left: 0;
-  background-color: rgba(52, 73, 94, 0.85);
-}
-
 .project:hover {
-  transform: scale(1.1);
-}
-
-.projects-container a:hover p,
-.projects-container a:focus p {
-  display: block;
-}
-
-.project p {
-  display: none;
-  font-size: 1.5rem;
-  color: #ffffff;
-  text-align: center;
-  margin: auto;
-  position: absolute;
-  top: 0;
-  left: 0;
-  bottom: 0;
-  right: 0;
-  height: 50px;
-  cursor: pointer;
+  transform: scale(1.12);
 }
 
 .project1 {
@@ -173,4 +132,11 @@ section#connect {
 #connect p,
 #connect h1 {
   color: #333;
+}
+
+/* Media Queries */
+@media screen and (max-width: 860px) {
+  #my-pic {
+    width: 30vw;
+  }
 }
