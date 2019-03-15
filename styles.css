@@ -136,7 +136,7 @@ section#connect {
 /* Media Queries */
 @media screen and (max-width: 860px) {
   #about h1 {
-    font-size: 3rem;
+    font-size: 2rem;
   }
 
   .lead {
@@ -144,7 +144,7 @@ section#connect {
     font-size: 1rem;
   }
   #my-pic {
-    width: 40vw;
+    width: 30vw;
   }
 
   .projects-container a {
