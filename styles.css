@@ -171,6 +171,13 @@ section#connect {
 .fa-linkedin:active {color:#2E2E2E;}  
 
 
+
+.email {color:#333;}      
+.email:visited {color:#333;}
+.email:hover {color:#4267B2;}  
+.email:active {color:#333;}  
+
+
 /* Media Queries */
 @media screen and (max-width: 860px) {
   #about h1 {
@@ -214,6 +221,11 @@ section#connect {
 .fa-linkedin:visited {color:#0077B5;}
 .fa-linkedin:hover {color:#0077B5;}  
 .fa-linkedin:active {color:#0077B5;}  
+
+.email {color:#4267B2;}      
+.email:visited {color:#4267B2;}
+.email:hover {color:#4267B2;}  
+.email:active {color:#4267B2;}  
 
 .project4 {
   display: none;
