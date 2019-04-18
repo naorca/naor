@@ -86,22 +86,19 @@ section h1 {
 
 .projects-container {
   width: 80vw;
-  height: 80%;
+  height: 80vh;
   display: flex;
   flex-wrap: wrap;
   align-items: center;
   justify-content: space-around;
+  overflow: hidden;
  
 }
 
 .projects-container a {
   width: 45%;
   height: 300px;
-  border: 3px solid white;
-  overflow: hidden;
   margin: 15px;
- 
-
 }
 
 .project {
