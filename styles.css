@@ -210,4 +210,8 @@ section#connect {
 .fa-linkedin:visited {color:#0077B5;}
 .fa-linkedin:hover {color:#0077B5;}  
 .fa-linkedin:active {color:#0077B5;}  
+
+.project4 {
+  display: none;
+}
 }
