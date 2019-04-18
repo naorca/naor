@@ -169,13 +169,10 @@ section#connect {
     width: 30vw;
   }
 
-  .projects {
-    height: auto;
-    background-color: green;
-  }
+
   .projects-container a {
     width: 100vw;
-    height: 18vh;
+    height: 15vh;
   
   }
 
