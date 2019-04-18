@@ -145,6 +145,10 @@ section#connect {
   font-weight: bold;
 }
 
+.social {
+  margin-top: 15px;
+}
+
 .social a {
   padding: 10px;
   
