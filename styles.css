@@ -92,7 +92,7 @@ section h1 {
 
 .projects-container {
   width: 80vw;
-  height: 80vh;
+  height: 100vh;
   display: flex;
   flex-wrap: wrap;
   align-items: center;
@@ -103,9 +103,9 @@ section h1 {
 }
 
 .projects-container a {
-  width: 45%;
-  height: 300px;
-  margin: 15px;
+  width: 30vw;
+  height: 30vh;
+  /* margin: 15px; */
 }
 
 .project {
