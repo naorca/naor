@@ -161,6 +161,10 @@ section#connect {
   
 }
 
+.fa-facebook, .fa-github, .fa-linkedin {
+  font-size: 3em;
+}
+
 
 .fa-facebook {color:#2E2E2E;}      
 .fa-facebook:visited {color:#2E2E2E;}
@@ -207,14 +211,17 @@ section#connect {
   .projects-container a {
     width: 100vw;
     height: 20vh;
-  
+  }
+
+  .project4 {
+    display: none;
   }
 
   .navbar ul li a {
     font-size: 0.7rem;
   }
 
-  .fa-facebook {color:#4267B2;}      
+.fa-facebook {color:#4267B2;}      
 .fa-facebook:visited {color:#4267B2;}
 .fa-facebook:hover {color:#4267B2;}  
 .fa-facebook:active {color:#4267B2;}  
@@ -234,7 +241,9 @@ section#connect {
 .email:hover {color:#4267B2;}  
 .email:active {color:#4267B2;}  
 
-.project4 {
-  display: none;
+.fa-facebook, .fa-github, .fa-linkedin {
+  font-size: 2.5em;
 }
+
+
 }
