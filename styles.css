@@ -105,7 +105,7 @@ section h1 {
 .projects-container a {
   width: 30vw;
   height: 30vh;
-  /* margin: 15px; */
+ 
 }
 
 .project {
@@ -211,6 +211,7 @@ section#connect {
   .projects-container a {
     width: 100vw;
     height: 20vh;
+    margin: 15px;
   }
 
   .project4 {
